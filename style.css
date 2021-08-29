@@ -758,6 +758,11 @@ h4 {
     width:100%;
 }
 
+.portfolio-thumb img {
+    width:100%;
+}
+
+
 .bloc-lg p {
     margin-bottom:40px;
 }
@@ -1067,7 +1072,7 @@ h4 {
 }
 .special-dropdown-nav-accueil{
     position: absolute;
-    right: 50px;
+    right: 150px;
     top:30px;
     font-size: 20px;
 }
@@ -1075,3 +1080,11 @@ h4 {
 .special-dropdown-nav-accueil a{
     text-decoration: none;
 }
+
+@media (max-width: 750px){
+    .special-dropdown-nav-accueil{
+        position: absolute;
+        right: 40px;
+    }
+}
+
