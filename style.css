@@ -203,7 +203,7 @@ a:hover {
 }
 
 .form-control-first{
-    height:25px;
+    height:22px;
 }
 
 .d-bloc .panel button:hover,
@@ -1062,13 +1062,13 @@ h4 {
 
 
 
-.navbar{
+.l-bloc {
     position: relative;
 }
 .special-dropdown-nav-accueil{
     position: absolute;
     right: 50px;
-    top:15px;
+    top:30px;
     font-size: 20px;
 }
 
