@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px;
 }
 
 .bloc-md {
@@ -198,6 +198,14 @@ a:hover {
     color: rgba(0, 0, 0, .5);
 }
 
+.form-group{
+    font-size:22px;
+}
+
+.form-control-first{
+    height:25px;
+}
+
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
@@ -272,9 +280,15 @@ a:hover {
     margin-top: 80px;
 }
 
-.row-no-gutters {
-    margin-right: 0;
-    margin-left: 0;
+blockquote {
+    padding: 2px 20px;
+    margin: 0;
+    font-size: 25px;
+    border-left: 0;
+}
+
+figcaption{
+    font-size:15px;
 }
 
 .row.row-no-gutters > [class^="col-"],
@@ -325,7 +339,7 @@ a:hover {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -741,12 +755,17 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width:100%;
 }
 
-.portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+.bloc-lg p {
+    margin-bottom:40px;
 }
+
+/* .portfolio-row {
+    margin-bottom: 30px;
+     margin-top: 50px; 
+} */
 
 .avatar {
     box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
@@ -822,7 +841,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("./img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
