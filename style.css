@@ -1059,3 +1059,19 @@ h4 {
         text-align: center;
     }
 }
+
+
+
+.navbar{
+    position: relative;
+}
+.special-dropdown-nav-accueil{
+    position: absolute;
+    right: 50px;
+    top:15px;
+    font-size: 20px;
+}
+
+.special-dropdown-nav-accueil a{
+    text-decoration: none;
+}
