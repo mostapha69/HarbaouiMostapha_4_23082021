@@ -285,10 +285,12 @@ blockquote {
     margin: 0;
     font-size: 25px;
     border-left: 0;
+    font-weight: bold;
 }
 
 figcaption{
     font-size:15px;
+    font-weight: bold;
 }
 
 .row.row-no-gutters > [class^="col-"],
