@@ -4249,7 +4249,7 @@ input[type=submit].btn-block {
 }
 
 .collapse {
-    display: none
+    display: block
 }
 
 .collapse.in {
